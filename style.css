@@ -1,0 +1,150 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+/* General Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f9f6f1;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header {
+    text-align: center;
+    width: 100%;
+    padding:20px 0;
+    margin-bottom: 20px;
+}
+h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #3498DB;
+    margin-bottom:5px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2ECC71;
+    margin-top: 0;
+}
+
+
+.content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px auto;
+    gap: 30px;
+}
+
+
+.left-box, .right-box, .interests {
+    flex: 1; 
+    min-width: 300px;
+    max-width: 33%; 
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #555;
+    margin-bottom: 15px;
+}
+
+.bio {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    background-color: #444;
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.contact a:hover {
+    background-color: #222;
+    transform: scale(1.1);
+}
+
+.interests {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 15px; 
+    width: 100%;
+}
+
+.interest{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width:80%;
+    max-width: 400px;
+    text-align:center;
+}
+
+.interests h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3498DB;
+    margin-bottom: 15px;
+}
+.interest p {
+    font-size: 16px;
+    color: #333; 
+    margin: 0;
+}
+
+.interest img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+
